@@ -1,6 +1,4 @@
-# ClipboardTool 剪贴小帮手   # ClipboardTool – Your Clipboard Assistant# ClipboardTool – Your Clipboard Assistant Your Clipboard Assistant# ClipboardTool 剪贴小帮手  
-# ClipboardTool —— 您的剪贴板助手  
-您的剪贴板助手
+# ClipboardTool 剪贴小帮手   # ClipboardTool – Your Clipboard Assistant
 
 一个轻量级的 Windows 剪贴板增强工具，集成了剪贴板历史记录管理、OCR 文字识别、截图工具、快捷工具箱等功能，使用 C# + WPF 开发，无需安装，开箱即用。
 
@@ -18,8 +16,8 @@
 ### 方式一：直接运行
 
 1. 下载本项目到本地
-2. 运行 `Build.bat` ,编译完成后在项目根目录生成 `ClipboardTool.exe`2. Run `Build.bat`; after compilation, `ClipboardTool.exe` will be generated in the project root directory.2. Run `Build.bat`; after compilation, `ClipboardTool.exe` will be generated in the project root directory. after compilation, `ClipboardTool.exe` will be generated in the project root directory.2. 运行 `Build.bat`，编译完成后，`ClipboardTool.exe` 将在项目根目录下生成。
-3. 双击 `ClipboardTool.exe` 即可运行3. Double-click `ClipboardTool.exe` to run it3. Double-click `ClipboardTool.exe` to run it3. 双击 `ClipboardTool.exe` 即可运行3. Double-click `ClipboardTool.exe` to run it
+2. 运行 `Build.bat` ,编译完成后在项目根目录生成 `ClipboardTool.exe`
+3. 双击 `ClipboardTool.exe` 即可运行
 
 ### 基本操作
 
