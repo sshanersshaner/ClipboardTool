@@ -1,4 +1,6 @@
-# ClipboardTool 剪贴小帮手
+# ClipboardTool 剪贴小帮手   # ClipboardTool – Your Clipboard Assistant# ClipboardTool – Your Clipboard Assistant Your Clipboard Assistant# ClipboardTool 剪贴小帮手  
+# ClipboardTool —— 您的剪贴板助手  
+您的剪贴板助手
 
 一个轻量级的 Windows 剪贴板增强工具，集成了剪贴板历史记录管理、OCR 文字识别、截图工具、快捷工具箱等功能，使用 C# + WPF 开发，无需安装，开箱即用。
 
@@ -7,7 +9,7 @@
 ## 索引
 
 - [怎么使用](#怎么使用)
-- [功能]
+- [功能](#功能)
 
 ---
 
@@ -16,14 +18,8 @@
 ### 方式一：直接运行
 
 1. 下载本项目到本地
-2. 运行 `Build.bat` 
-3. 双击 `ClipboardTool.exe` 即可运行3. Double-click `ClipboardTool.exe` to run it
-
-### 方式二：从源码编译
-
-1. 确保已安装 .NET Framework 4.7.2+1. Ensure that .NET Framework 4.7.2 is installed
-2. 双击 `Build.bat`，自动调用 `csc.exe` 编译2. Double-click `Build.bat` to automatically invoke `csc.exe` for compilation
-3. 编译完成后在项目根目录生成 `ClipboardTool.exe`3. After compilation, the `ClipboardTool.exe` will be generated in the project root directory.
+2. 运行 `Build.bat` ,编译完成后在项目根目录生成 `ClipboardTool.exe`2. Run `Build.bat`; after compilation, `ClipboardTool.exe` will be generated in the project root directory.2. Run `Build.bat`; after compilation, `ClipboardTool.exe` will be generated in the project root directory. after compilation, `ClipboardTool.exe` will be generated in the project root directory.2. 运行 `Build.bat`，编译完成后，`ClipboardTool.exe` 将在项目根目录下生成。
+3. 双击 `ClipboardTool.exe` 即可运行3. Double-click `ClipboardTool.exe` to run it3. Double-click `ClipboardTool.exe` to run it3. 双击 `ClipboardTool.exe` 即可运行3. Double-click `ClipboardTool.exe` to run it
 
 ### 基本操作
 
@@ -35,11 +31,19 @@
 | **翻页** | 点击左右箭头按钮浏览更多历史 |
 | **截图** | 点击截图按钮，框选区域自动 OCR 识别文字 |
 | **工具箱** | 点击工具箱图标，快速打开常用系统工具 |
-| **设置** | 点击齿轮图标，自定义颜色、透明度等 |
+| **设置** | 点击...图标，自定义颜色、透明度等 |
 
 ---
 
 ## 功能
+
+### ⚙️ 实用设置
+
+- **窗口置顶**：保持窗口始终在最前
+- **边缘吸附**：窗口自动吸附到屏幕边缘
+- **自动隐藏**：窗口失焦后自动收起
+- **半透明模式**：可调节窗口透明度
+- **设置持久化**：所有配置自动保存，下次启动恢复
 
 ### 📋 剪贴板历史记录
 
@@ -54,6 +58,17 @@
 - 截图后自动提取文字内容到剪贴板
 - 支持截图保存图片到桌面
 - 支持截图提取图片
+  
+### 🎨 个性化主题
+
+- **按钮颜色**：粉、红、橙、黄、绿、青、蓝、紫、黑、白 共 10 种配色# ClipboardTool 剪贴小帮手  
+# ClipboardTool —— 您的剪贴板助手  
+您的剪贴板助手
+- **背景颜色**：20+ 种预设背景色   # ClipboardTool – Your Clipboard Assistant   # ClipboardTool – Your Clipboard Assistant- **Background Color   背景颜色**: 20 preset background colors   # ClipboardTool – Your Clipboard Assistant   # ClipboardTool – Your Clipboard Assistant
+- **文字颜色**：12 种可选文字颜色
+- **渐变效果**：按钮可开启渐变样式
+- **半透明**：窗口透明度可调
+- 所有颜色实时预览，即点即用
 
 ### 🧰 快捷工具箱
 
@@ -61,7 +76,7 @@
 
 | 工具 | 说明 |
 |------|------|
-| 管理员 Shell | 以管理员权限打开 PowerShell |
+| 管理员 Shell | 以管理员权限打开 PowerShell || Administrator Shell | Open PowerShell with administrator privileges || Administrator Shell | Open PowerShell with administrator privileges |
 | CMD | 打开命令提示符 |
 | 桌面键盘 | 打开屏幕键盘 |
 | 字符库 | 打开字符映射表 |
@@ -74,23 +89,6 @@
 | 资源管理器 | 打开文件资源管理器 |
 | 倒计时 | 自定义倒计时提醒 |
 | 番茄钟 | 25 分钟工作 + 5 分钟休息循环 |
-
-### 🎨 个性化主题
-
-- **按钮颜色**：粉、红、橙、黄、绿、青、蓝、紫、黑、白 共 10 种配色
-- **背景颜色**：20+ 种预设背景色
-- **文字颜色**：12 种可选文字颜色
-- **渐变效果**：按钮可开启渐变样式
-- **半透明**：窗口透明度可调
-- 所有颜色实时预览，即点即用
-
-### ⚙️ 实用设置
-
-- **窗口置顶**：保持窗口始终在最前
-- **边缘吸附**：窗口自动吸附到屏幕边缘
-- **自动隐藏**：窗口失焦后自动收起
-- **半透明模式**：可调节窗口透明度
-- **设置持久化**：所有配置自动保存，下次启动恢复
 
 ---
 
