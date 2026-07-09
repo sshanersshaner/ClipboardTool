@@ -6,7 +6,7 @@
 
 ## 索引
 
-- [怎么使用]
+- [怎么使用](#怎么使用)
 - [功能]
 
 ---
@@ -17,13 +17,13 @@
 
 1. 下载本项目到本地
 2. 运行 `Build.bat` 
-3. 双击 `ClipboardTool.exe` 即可运行
+3. 双击 `ClipboardTool.exe` 即可运行3. Double-click `ClipboardTool.exe` to run it
 
 ### 方式二：从源码编译
 
-1. 确保已安装 .NET Framework 4.7.2+
-2. 双击 `Build.bat`，自动调用 `csc.exe` 编译
-3. 编译完成后在项目根目录生成 `ClipboardTool.exe`
+1. 确保已安装 .NET Framework 4.7.2+1. Ensure that .NET Framework 4.7.2 is installed
+2. 双击 `Build.bat`，自动调用 `csc.exe` 编译2. Double-click `Build.bat` to automatically invoke `csc.exe` for compilation
+3. 编译完成后在项目根目录生成 `ClipboardTool.exe`3. After compilation, the `ClipboardTool.exe` will be generated in the project root directory.
 
 ### 基本操作
 
