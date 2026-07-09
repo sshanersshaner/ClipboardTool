@@ -18,7 +18,7 @@ if not exist "%REFDIR%\PresentationFramework.dll" (
 
 set REFS=/reference:"%REFDIR%\PresentationFramework.dll" /reference:"%REFDIR%\PresentationCore.dll" /reference:"%REFDIR%\WindowsBase.dll" /reference:"%REFDIR%\System.Xaml.dll" /reference:"Tesseract.dll"
 
-%CSC% /target:winexe /out:ClipboardTool.exe %REFS% ClipboardToolCode\App.cs ClipboardToolCode\MainWindow.cs
+%CSC% /target:winexe /win32icon:app.ico /out:ClipboardTool.exe %REFS% ClipboardToolCode\App.cs ClipboardToolCode\MainWindow.cs
 
 if %ERRORLEVEL% equ 0 (
     echo ????! ??: ClipboardTool.exe
