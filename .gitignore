@@ -1,0 +1,16 @@
+# 编译产物
+*.exe
+*.pdb
+*.cache
+
+# 运行时数据（用户自己生成）
+ClipboardToolData/
+
+# 临时文件
+*.py
+*.log
+
+# IDE
+.vs/
+*.suo
+*.user
