@@ -4,7 +4,7 @@
 *.cache
 
 # 运行时数据（用户自己生成）
-ClipboardToolData/
+Code/ClipboardToolData/
 
 # 临时文件
 *.py
